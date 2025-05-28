@@ -1,87 +1,46 @@
-/* ======== FONDO GENERAL Y FUENTE ======== */
-html, body, [class*="css"]  {
-    font-family: 'Segoe UI', sans-serif;
+html, body, [class*="css"] {
+    background-color: #5045eb !important;
+    font-family: 'Georgia', serif;
+    color: #222;
+    padding: 0;
+    margin: 0;
 }
 
-div[data-testid="stAppViewContainer"] {
-    background-color: #b5dde7 !important;
+body, .stApp, section.main {
+    background-color: #f5f5f5 !important;
 }
 
-/* Selecciona el primer botón que aparece — tu botón personalizado */
-div.stButton:first-of-type > button {
-    background-color: #1f4e79;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 10px 22px;
-    cursor: pointer;
-    border: none;
-    transition: background-color 0.3s ease;
-}
-
-div.stButton:first-of-type > button:hover {
-    background-color: #155a9e;
-}
-
-div.stButton:first-of-type > button:focus,
-div.stButton:first-of-type > button:active {
-    background-color: #104d80;
-    outline: none;
-}
-
-
-/* ======== TARJETAS DE PROYECTOS ======== */
-.proyecto-box {
-    background-color: #bcbfd4;
-    border: 1px solid #ccc;
-    border-radius: 12px;
+/* Cambia el fondo del sidebar */
+section[data-testid="stSidebar"] {
+     background-color: #e0e0e0;
     padding: 20px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.08);
-    margin-bottom: 20px;
-    height: 100%;
-    transition: box-shadow 0.2s ease;
+    border-right: 1px solid #ccc;
 }
 
-.proyecto-box:hover {
-    box-shadow: 4px 4px 14px rgba(0,0,0,0.15);
+/* Fondo de la parte principal derecha */
+div.block-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.proyecto-box h4 {
-    margin-top: 0;
-    color: #1f4e79;
+h1, h2, h3 {
+    color: #1f1f1f;
 }
 
-.proyecto-box p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #444;
-}
-
-.proyecto-box a {
-    color: #007acc;
+a {
+    color: #111111;
     text-decoration: none;
 }
 
-.proyecto-box a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-/* ======== SIDEBAR ======== */
-section[data-testid="stSidebar"] {
-    background-color: #e7d9bf;
-    padding: 25px;
-    border-right: 3px solid #cbbca4;
-}
-
-section[data-testid="stSidebar"] h3, h4 {
-    color: #1f4e79;
-    margin-bottom: 10px;
-}
-
-section[data-testid="stSidebar"] p,
-section[data-testid="stSidebar"] ul,
-section[data-testid="stSidebar"] li {
-    font-size: 14px;
-    color: #333;
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888888;
 }
