@@ -151,7 +151,7 @@ elif menu == "Currículum":
     st.markdown("📄 Puedes consultar o descargar el CV completo en PDF:")
     #st.markdown("[Descargar Currículum (PDF)](https://github.com/ismaelz001/PortafolioStreamlit/blob/main/Curr%C3%ADculum%20Vitae%20.pdf)")
 
-    st.markdown("[Descargar CV (PDF)](https://github.com/ismaelz001/PortafolioStreamlit/blob/main/Curr%C3%ADculum%20Vitae%20.pdf)")
+    st.markdown("[Descargar CV (PDF)](https://github.com/ismaelz001/PortafolioStreamlit/blob/main/cv_ismael.pdf)")
 
 # Proyectos
 elif menu == "Proyectos":
