@@ -16,7 +16,7 @@ load_estilo("style.css")
 
 
 with col1:
-    st.image("imgs/proAvatar.png", width=160)
+    st.image("imgs/fotoPro.jpg", width=160)
 
 # Inicializar el estado la primera vez
 if "mostrar_sidebar" not in st.session_state:
